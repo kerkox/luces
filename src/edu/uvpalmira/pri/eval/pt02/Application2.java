@@ -13,13 +13,13 @@ import java.io.IOException;
  *
  * @author zeus
  */
-public class Application extends javax.swing.JFrame {
+public class Application2 extends javax.swing.JFrame {
 
     
     /**
      * Creates new form Application
      */
-    public Application() throws IOException {
+    public Application2() throws IOException {
         initComponents();
         final Animation animation = new Animation();
         this.panel.add(animation);
@@ -54,7 +54,6 @@ public class Application extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Punto No. 02 - Arbol de Navidad");
-        setPreferredSize(new java.awt.Dimension(500, 500));
 
         panel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         panel.setLayout(new java.awt.BorderLayout());

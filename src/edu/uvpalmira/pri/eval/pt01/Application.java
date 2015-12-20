@@ -5,6 +5,11 @@
  */
 package edu.uvpalmira.pri.eval.pt01;
 
+import edu.uvpalmira.pri.eval.pt02.Application2;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author zeus
@@ -19,7 +24,7 @@ public class Application extends javax.swing.JFrame {
         Animation animation = new Animation();
         animation.init();
         this.panel.add(animation);
-        
+                
     }
 
     /**

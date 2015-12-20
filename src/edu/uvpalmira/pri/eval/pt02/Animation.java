@@ -22,7 +22,7 @@ public class Animation extends JComponent implements Runnable {
     private int circuito = 3;
 
     public Animation() throws IOException {
-        tree = ImageIO.read(getClass().getResourceAsStream("../image/tree.png"));
+        tree = ImageIO.read(getClass().getResourceAsStream("/image/tree.png"));
     }
 
     @Override
